@@ -1,2 +1,2 @@
 \(entry : { mapKey : Text, mapValue : Text }) ->
-  "${entry.mapKey}=${Text/show entry.mapValue}"
+  "${entry.mapKey}=\"${entry.mapValue}\""
